@@ -45,6 +45,14 @@ from sklearn.calibration  import CalibratedClassifierCV
 from sklearn.metrics import plot_confusion_matrix
 from sklearn.feature_selection import chi2, SelectKBest
 
-load the data set on which you want to test the results as a dataframe and pass it to the function final_script in the final_script.ipynb file
+load the data set on which you want to test the results as a dataframe
+Download the pretrained model named finalized_model.sav to print output on test data.
+Pass the data to the function final_script in the final_script.ipynb file to generate output.
 
-                                         
+Example
+#install dependencies
+
+df = pd.read_csv('')
+svm = pickle.load('')
+final_script(df, svm)
+        
