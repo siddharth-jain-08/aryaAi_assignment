@@ -52,7 +52,7 @@ Pass the data to the function final_script in the final_script.ipynb file to gen
 Example
 #install dependencies
 
-df = pd.read_csv('') -
-svm = pickle.load('') -
-final_script(df, svm)
+>> df = pd.read_csv('') 
+>> svm = pickle.load('') 
+>> final_script(df, svm)
         
